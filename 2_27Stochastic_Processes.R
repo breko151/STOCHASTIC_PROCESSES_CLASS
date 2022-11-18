@@ -10,8 +10,8 @@
 # a) Estimate the probability the probability that the gambler is ruined before 
 #    he wins $5
 
+# Simulate Gambles Ruin
 gamble <- function(k, n, p, goal) {
-  
   stake <- k
   stake_historic <- integer()
   reach_goal <- FALSE
